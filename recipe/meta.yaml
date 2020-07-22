@@ -1,6 +1,6 @@
 {% set name = "pyzenhub" %}
-{% set version = "0.1.0" %}
-{% set hash = "b64fc47a262132011c6d0d03e03344eed111862a62350c1f6e36c60050824430" %}
+{% set version = "0.2.1" %}
+{% set hash = "b9827dbdbee68e738a70fc3c0f32fe6eb08e4118733b556b3333923d21f98484" %}
 
 package:
   name: {{ name|lower }}
@@ -9,11 +9,11 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ hash }}
-  
+
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -32,7 +32,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: 'Python bindings to the Zenhub API'
+  summary: Python bindings to the Zenhub API
   description: |
     Python bindings to the Zenhub API
   doc_url: https://github.com/goanpeca/pyzenhub
