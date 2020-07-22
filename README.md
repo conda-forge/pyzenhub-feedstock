@@ -5,7 +5,7 @@ Home: https://github.com/goanpeca/pyzenhub
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Python bindings to the Zenhub API
 
