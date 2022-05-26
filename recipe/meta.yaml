@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyzenhub-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: a6fab42c7a8c0dd3155f597a5d478af55fa503985fbb6d588bad0ccd06c35a29
 
 build:
@@ -28,7 +28,7 @@ requirements:
 
 test:
   imports:
-    - pyzenhub
+    - zenhub
   commands:
     - pip check
   requires:
