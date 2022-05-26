@@ -1,6 +1,6 @@
 {% set name = "pyzenhub" %}
-{% set version = "0.2.1" %}
-{% set hash = "b9827dbdbee68e738a70fc3c0f32fe6eb08e4118733b556b3333923d21f98484" %}
+{% set version = "0.3.1" %}
+{% set hash = "a6fab42c7a8c0dd3155f597a5d478af55fa503985fbb6d588bad0ccd06c35a29" %}
 
 package:
   name: {{ name|lower }}
