@@ -1,5 +1,5 @@
 {% set name = "pyzenhub" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a6fab42c7a8c0dd3155f597a5d478af55fa503985fbb6d588bad0ccd06c35a29
+  sha256: 26ecafccbd00edd652fbc8204fa218c25eaa89fc827db70e3fa9a4ea7384c910
 
 build:
   noarch: python
