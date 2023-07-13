@@ -1,20 +1,15 @@
-About pyzenhub
-==============
+About pyzenhub-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyzenhub-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/goanpeca/pyzenhub
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyzenhub-feedstock/blob/main/LICENSE.txt)
-
 Summary: Python bindings to the Zenhub API
 
 Development: https://github.com/goanpeca/pyzenhub
-
-Documentation: https://github.com/goanpeca/pyzenhub
-
-Python bindings to the Zenhub API
-
 
 Current build status
 ====================
